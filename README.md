@@ -6,9 +6,9 @@ An end-to-end data analytics project that analyzes hospital patient records to u
 
 This project follows a complete data analytics workflow:
 
-**Raw Data → Data Cleaning → SQL Analysis → Data Visualization → Business Insights**
+**Raw Data → Data Cleaning → SQL Analysis → Data Visualization → Power BI Dashboard → Business Insights**
 
-The project demonstrates practical experience with **Python, Pandas, PostgreSQL, SQL, Jupyter Notebook, and Matplotlib**.
+The project demonstrates practical experience with **Python, Pandas, PostgreSQL, SQL, Matplotlib, Power BI, Jupyter Notebook, and GitHub**.
 
 ---
 
@@ -26,6 +26,7 @@ The project demonstrates practical experience with **Python, Pandas, PostgreSQL,
 * Examine the relationship between length of stay and treatment cost
 * Use SQL to answer business-oriented questions
 * Create visualizations to communicate analytical findings
+* Build an interactive Power BI dashboard for hospital performance analysis
 
 ---
 
@@ -75,7 +76,11 @@ The dataset contains hospital patient records covering demographics, medical con
 * pgAdmin 4
 * SQL
 
-### Development
+### Dashboard & Visualization
+
+* Power BI
+
+### Development & Version Control
 
 * VS Code
 * Git
@@ -171,6 +176,36 @@ Visualizations include:
 
 ---
 
+## 📊 Power BI Dashboard
+
+An interactive Power BI dashboard was created to provide a visual overview of hospital patient data.
+
+The dashboard focuses on:
+
+* Total Patients
+* Average Age
+* Average Length of Stay
+* Total Treatment Cost
+* Average Patient Satisfaction
+* Patient distribution by medical condition
+* Patient distribution by gender
+* Patient distribution by state
+* Patient admissions by year
+
+### Dashboard Preview
+
+#### Hospital Overview
+
+![Hospital Patient Dashboard - Page 1](dashboard/dashboard_page1.png)
+
+#### Patient Analysis
+
+![Hospital Patient Dashboard - Page 2](dashboard/dashboard_page2.png)
+
+The original Power BI report file is available in the `dashboard/` folder.
+
+---
+
 ## 💡 Key Findings
 
 The analysis helped identify patterns related to:
@@ -189,6 +224,11 @@ The analysis helped identify patterns related to:
 
 ```text
 Hospital-Patient-Analysis/
+│
+├── dashboard/
+│   ├── Hospital_Patient_Analysis.pbix
+│   ├── dashboard_page1.png
+│   └── dashboard_page2.png
 │
 ├── datasets/
 │   ├── cleaned_data/
@@ -235,11 +275,21 @@ Import the cleaned CSV dataset into PostgreSQL and execute the queries available
 sql/hospital_analysis.sql
 ```
 
+### 5. Power BI Dashboard
+
+Open the `.pbix` file from:
+
+```text
+dashboard/Hospital_Patient_Analysis.pbix
+```
+
+using Microsoft Power BI Desktop.
+
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates an end-to-end data analytics workflow using **Python, Pandas, PostgreSQL, SQL, Jupyter Notebook, and Matplotlib**.
+This project demonstrates an end-to-end data analytics workflow using **Python, Pandas, PostgreSQL, SQL, Matplotlib, and Power BI**.
 
 Through this project, I strengthened my practical skills in:
 
@@ -248,7 +298,9 @@ Through this project, I strengthened my practical skills in:
 * SQL querying
 * PostgreSQL
 * Data visualization
-* Statistical analysis
+* Power BI dashboard development
 * Business-oriented data interpretation
+* Data storytelling
+* Git and GitHub
 
 ---
