@@ -220,6 +220,8 @@ The analysis helped identify patterns related to:
 
 ---
 ## 📁 Project Structure
+
+```text
 Hospital-Patient-Analysis/
 │
 ├── dashboard/
@@ -246,7 +248,7 @@ Hospital-Patient-Analysis/
 │   └── hospital_analysis.sql
 │
 └── README.md
-
+```
 ## 🚀 How to Use This Project
 
 ### 1. Clone the repository
