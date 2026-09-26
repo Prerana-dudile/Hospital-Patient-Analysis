@@ -219,16 +219,17 @@ The analysis helped identify patterns related to:
 * The relationship between hospital stay duration and treatment cost
 
 ---
-
 ## 📁 Project Structure
-
-```text
 Hospital-Patient-Analysis/
 │
 ├── dashboard/
 │   ├── Hospital_Patient_Analysis.pbix
 │   ├── dashboard_page1.png
 │   └── dashboard_page2.png
+│
+├── screenshots/
+│   ├── 1_Overview.png
+│   └── 2_Analysis.png
 │
 ├── datasets/
 │   ├── cleaned_data/
@@ -245,9 +246,6 @@ Hospital-Patient-Analysis/
 │   └── hospital_analysis.sql
 │
 └── README.md
-```
-
----
 
 ## 🚀 How to Use This Project
 
